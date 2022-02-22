@@ -16,7 +16,7 @@ import {
 import { Pagination } from "@material-ui/lab";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { CoinList } from "../config/api.js";
 import { CryptoState } from "../CryptoContext.js";
 
